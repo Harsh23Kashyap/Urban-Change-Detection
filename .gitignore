@@ -1,0 +1,20 @@
+# Datasets (download automatically on first run — do not commit)
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Model/cache artifacts
+*.pt
+*.pth
+*.parquet
+*.zip

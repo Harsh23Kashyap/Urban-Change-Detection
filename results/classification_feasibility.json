@@ -1,0 +1,38 @@
+{
+  "dataset": "EuroSAT (Sentinel-2, torchvision)",
+  "n_probe": 8000,
+  "builtup": 2400,
+  "classes": [
+    "AnnualCrop",
+    "Forest",
+    "HerbaceousVegetation",
+    "Highway",
+    "Industrial",
+    "Pasture",
+    "PermanentCrop",
+    "Residential",
+    "River",
+    "SeaLake"
+  ],
+  "builtup_classes": [
+    "Highway",
+    "Industrial",
+    "Residential"
+  ],
+  "split": "70/30 stratified, random_state=0",
+  "features": "frozen MobileNetV3-Small embeddings (ImageNet)",
+  "results": {
+    "logreg": {
+      "accuracy": 0.9475,
+      "balanced_accuracy": 0.9411,
+      "f1": 0.9136,
+      "auroc": 0.9846
+    },
+    "rf": {
+      "accuracy": 0.9321,
+      "balanced_accuracy": 0.9035,
+      "f1": 0.8802,
+      "auroc": 0.9832
+    }
+  }
+}

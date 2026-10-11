@@ -1,0 +1,12 @@
+{
+  "dataset": "LEVIR-CD (ericyu/LEVIRCD_Cropped256 test shard, Hugging Face)",
+  "n": 2048,
+  "change_positive_frac": 0.357,
+  "label_rule": "mask foreground > 2% of patch = change",
+  "features": "|MobileNetV3 embedding diff| + pixel-difference stats",
+  "split": "70/30 stratified, random_state=0",
+  "accuracy": 0.8358,
+  "balanced_accuracy": 0.7956,
+  "f1": 0.7404,
+  "auroc": 0.922
+}
