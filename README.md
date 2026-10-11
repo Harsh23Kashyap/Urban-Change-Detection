@@ -1,4 +1,4 @@
-# Urban Change Detection — Feasibility Probes
+# Urban Change Detection : Feasibility Probes
 
 Feasibility experiments for a research project on **monitoring unplanned
 construction and urban sprawl from satellite imagery**, with an
